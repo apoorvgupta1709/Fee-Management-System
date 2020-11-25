@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="newCascadeStyleSheet.css"?>
+
+
+<STUDENTDATA>
+
+ <STUDENT>
+  <Roll>roll no   : 3GN16CS002</Roll>
+  <NAME>NAME : ABHISHEK MALI</NAME>
+  <BRANCH>BRANCH :CSE</BRANCH>
+  <YEAR>YEAR : 2019</YEAR>
+  <EMAIL>E-MAIL : abhishek@gmail.com</EMAIL>
+ </STUDENT>
+
+ <STUDENT>
+  <Roll>roll no   : 3GN16CS002</Roll>
+  <NAME>NAME : Rajat gupta</NAME>
+  <BRANCH>BRANCH :CSE</BRANCH>
+  <YEAR>YEAR : 2019</YEAR>
+  <EMAIL>E-MAIL : rajat@gmail.com</EMAIL>
+ </STUDENT>
+ 
+  <STUDENT>
+  <Roll>roll no   : 3GN16CS002</Roll>
+  <NAME>NAME : Rahul jain</NAME>
+  <BRANCH>BRANCH :CSE</BRANCH>
+  <YEAR>YEAR : 2019</YEAR>
+  <EMAIL>E-MAIL : rahul@gmail.com</EMAIL>
+ </STUDENT>
+ 
+  <STUDENT>
+  <Roll>roll no   : 3GN16CS002</Roll>
+  <NAME>NAME : hritik </NAME>
+  <BRANCH>BRANCH :CSE</BRANCH>
+  <YEAR>YEAR : 2019</YEAR>
+  <EMAIL>E-MAIL : hritik@gmail.com</EMAIL>
+ </STUDENT>
+ 
+  <STUDENT>
+  <Roll>roll no   : 3GN16CS002</Roll>
+  <NAME>NAME : rihan </NAME>
+  <BRANCH>BRANCH :CSE</BRANCH>
+  <YEAR>YEAR : 2019</YEAR>
+  <EMAIL>E-MAIL : rihan@gmail.com</EMAIL>
+ </STUDENT>
+ 
+</STUDENTDATA>
