@@ -1,2 +1,2 @@
 # Fee-Management-System
-Fee Management System 
+simple interface for maintenance of Student as well as Employees information
