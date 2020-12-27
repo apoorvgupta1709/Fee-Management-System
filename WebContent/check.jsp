@@ -9,7 +9,7 @@ function validateForm() {
 	}
 
 </script >
-
+//new
 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
   Name: <input type="text" name="fname">
   <input type="submit" value="Submit">
