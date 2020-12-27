@@ -4,7 +4,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+<meta http-equiv="Expires" content="0">
         <title>login page</title>
          <title>Accounts</title>
          
@@ -22,34 +23,7 @@
         
     </head>
     <body>
-        <!--navbar-->
-        
-        <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button> -->
 
-<!-- Modal -->
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div> -->
-        
         <%@include file="navbar.jsp" %>
         <main class="d-flex align-items-center primary-background banner-background " style="height: 70vh">
             <div class="container">
@@ -66,12 +40,29 @@
                             </div>
                             
                    <%
-                     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
-    response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
-    response.setHeader("Expires", "0"); 
-                  // HttpSession sesion=request.getSession();  
-                   session.invalidate();  
                    
+                  // HttpSession sesion=request.getSession();  
+                  // HttpSession existingSession = request.getSession(false);
+
+                   //session.invalidate();  
+                /*    	try
+                   	{
+                   		out.print(session.getValue("student"));
+                   	}
+                   	catch(Exception e)
+                   	{
+                   		out.print(e);
+                   	} */
+
+                  /*   response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+                    response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
+                    response.setHeader("Expires", "0");  */// Proxies.
+                   request.getSession();
+					session.invalidate();
+
+					//out.print(session.getValue("student"));
+					// if(session!=null)
+						
                    
                    %>
                                 
@@ -84,9 +75,9 @@
      <div class="form-group">
                                     <label for="gender">Select type</label>
                                     <br>
-                                    <input type="radio"  id="gender" name="gender" required="required" value="student" >student
-                                    <input type="radio"  id="gender" name="gender" required="required" value="accountant">accountant
-                                    <input type="radio"  id="gender" name="gender"  required="required" value="admin">admin
+                                    <input type="radio"  id="gender" name="gender" required="required" value="student" >Student
+                                    <input type="radio"  id="gender" name="gender" required="required" value="accountant">Accountant
+                                    <input type="radio"  id="gender" name="gender"  required="required" value="admin">Admin
                                 </div>
   
   
@@ -97,10 +88,10 @@
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   
-  
+   
   
   <div class="form-group">
-    <label for="exampleInputPassword1">F-id</label>
+    <label for="exampleInputPassword1">Id</label>
     <input type="text" class="form-control" required="required" name="passS" id="exampleInputPassword1" placeholder="id">
   </div>
 <!--    class="form-control"
