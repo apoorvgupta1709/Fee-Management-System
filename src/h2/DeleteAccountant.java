@@ -18,7 +18,6 @@ public class DeleteAccountant extends HttpServlet {
     {
        try
        {
-           
            rs.setContentType("text/html");
            PrintWriter out=rs.getWriter();
            Class.forName("com.mysql.jdbc.Driver");
